@@ -500,7 +500,7 @@ ul {
       background-size: cover; }
     @media only screen and (max-width: 767px) {
       .classy-nav-container .classy-navbar .nav-brand {
-        max-width: 90px;
+        max-width: 150px;
         margin-right: 15px; } }
     .classy-nav-container .classy-navbar .classynav ul li a {
       position: relative;
@@ -510,7 +510,7 @@ ul {
       text-transform: capitalize;
       color: #000000; }
       .classy-nav-container .classy-navbar .classynav ul li a:focus, .classy-nav-container .classy-navbar .classynav ul li a:hover {
-        color: #000000; }
+        color: #ed489d; }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
         .classy-nav-container .classy-navbar .classynav ul li a {
           font-size: 14px;
@@ -531,7 +531,6 @@ ul {
       position: absolute;
       width: 80%;
       height: 2px;
-      background-color: #f6a4ce;
       bottom: 0;
       left: 50%;
       -webkit-transform: translateX(-50%);
@@ -565,10 +564,10 @@ ul {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .classy-navbar-toggler .navbarToggler span {
-    background-color: #ffffff; } }
+    background-color: #ed489d; } }
 @media only screen and (max-width: 767px) {
   .classy-navbar-toggler .navbarToggler span {
-    background-color: #ffffff; } }
+    background-color: #ed489d; } }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .breakpoint-on .classy-navbar .classy-menu {
@@ -1254,53 +1253,9 @@ ul {
   width: 100%; }
   .about-us-thumbnail img {
     width: 100%;
-    -webkit-transition-duration: 800ms;
-    -o-transition-duration: 800ms;
-    transition-duration: 800ms; }
-  .about-us-thumbnail .line {
-    width: 100px;
-    height: 15px;
-    background-color: #ed489d;
-    position: absolute;
-    z-index: 10;
-    top: -15px;
-    right: -15px;
-    opacity: 0;
-    visibility: hidden;
-    -webkit-transition-duration: 300ms;
-    -o-transition-duration: 300ms;
-    transition-duration: 300ms; }
-    .about-us-thumbnail .line::after {
-      content: '';
-      height: 100px;
-      width: 15px;
-      background-color: #ed489d;
-      position: absolute;
-      top: 0;
-      right: 0;
-      z-index: 10; }
-  .about-us-thumbnail .line2 {
-    width: 100px;
-    height: 15px;
-    background-color: #ed489d;
-    position: absolute;
-    z-index: 10;
-    bottom: -15px;
-    left: -15px;
-    opacity: 0;
-    visibility: hidden;
-    -webkit-transition-duration: 300ms;
-    -o-transition-duration: 300ms;
-    transition-duration: 300ms; }
-    .about-us-thumbnail .line2::after {
-      content: '';
-      height: 100px;
-      width: 15px;
-      background-color: #ed489d;
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      z-index: 10; }
+    -webkit-transition-duration: 80ms;
+    -o-transition-duration: 80ms;
+    transition-duration: 80ms; }
   .about-us-thumbnail:focus .line, .about-us-thumbnail:hover .line {
     opacity: 1;
     visibility: visible;
