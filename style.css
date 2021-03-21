@@ -250,6 +250,10 @@ ul {
   padding-top: 0;
   padding-bottom: 80px; }
 
+.section-padding-50-0 {
+  padding-top: 50px;
+  padding-bottom: 0; }
+  
 .section-padding-80-0 {
   padding-top: 80px;
   padding-bottom: 0; }
@@ -413,6 +417,8 @@ ul {
   font-weight: 600;
   display: inline-block;
   padding: 0 20px;
+  margin-left: auto; 
+  margin-right: auto; 
   text-align: center;
   text-transform: capitalize;
   color: #ffffff;
@@ -442,10 +448,7 @@ ul {
   width: 97%;
   right: 20px;
   left: 20px;
-  top: 0;
-  -webkit-transition-duration: 5ms;
-  -o-transition-duration: 5ms;
-  transition-duration: 5ms; }
+  top: 0; }
   .header-area .main-header-area.sticky {
     top: 0;
     width: 97%;
@@ -1303,6 +1306,48 @@ ul {
 	  margin-top: 0;
 	  line-height: 1.4; }
 
+.work-content {
+  position: relative;
+  z-index: 1; 
+  padding-top: 3%;
+  padding-bottom: 3%; 
+  margin-left: 0px; 
+  margin-right: 0px; 
+  background-color: #f0f0f0;}
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .work-content {
+      padding-left: 0; } }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .work-content {
+      padding-left: 0; } }
+  @media only screen and (max-width: 767px) {
+    .work-content {
+      padding-left: 0; } }
+  .work-content h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+	margin-top: 5px;
+    line-height: 1.4; }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .work-content h2 {
+        font-size: 15px; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .work-content h2 {
+        font-size: 15px; } }
+    @media only screen and (max-width: 767px) {
+      .work-content h2 {
+        font-size: 15px; } }
+  .work-content p {
+	margin-top: 20px;
+	margin-bottom: 20px; 
+	margin-left: 55px; 
+	margin-right: 55px; 
+	line-height: 1.4;  }
+    .work-content p:last-child {
+      margin-bottom: 0;
+	  margin-top: 0;
+	  line-height: 1.4; }
+	  
 .service-area {
   position: relative;
   z-index: 1;
@@ -2131,17 +2176,18 @@ ul {
     font-size: 16px;
     color: #a6a6a6;
     display: block;
-    margin-bottom: 15px; }
+    margin-bottom: 12px; }
   .mona-contact-form .form-control {
     width: 100%;
     height: 50px;
-    padding: 0 20px;
+    padding: 0 30px;
     border-radius: 0; }
     .mona-contact-form .form-control:focus {
-      box-shadow: none;
+      height: 40px; 
+	  box-shadow: none;
       border-color: #A5A5A5; }
   .mona-contact-form textarea.form-control {
-    height: 110px;
+    height: 50px;
     padding: 20px; }
 
 /*# sourceMappingURL=style.css.map */
