@@ -2046,7 +2046,9 @@ ul {
     border-radius: 20px;
     text-align: center;
     line-height: 40px; }
-    .single-footer-widget .footer-social-info a.linkedin {
+    .single-footer-widget .footer-social-info a.email {
+      background-color: #ed489d; }
+	.single-footer-widget .footer-social-info a.linkedin {
       background-color: #0e76a8; }
     .single-footer-widget .footer-social-info a.instagram {
       background-color: #8a3ab9; }
