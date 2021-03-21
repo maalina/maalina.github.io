@@ -1270,7 +1270,7 @@ ul {
 .about-us-content {
   position: relative;
   z-index: 1;
-  padding-left: 5%; }
+  padding-left: 0%; }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .about-us-content {
       padding-left: 0; } }
@@ -2108,6 +2108,7 @@ ul {
     margin-bottom: 20px; }
     .mona-contact-form .contact-heading h2 {
       display: block;
+	  text-align: center; 
       margin-bottom: 15px;
       font-size: 48px; }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -2121,7 +2122,8 @@ ul {
           font-size: 24px; } }
     .mona-contact-form .contact-heading p {
       margin-bottom: 0;
-      font-size: 16px; }
+      font-size: 16px; 
+	  text-align: center; }
       @media only screen and (max-width: 767px) {
         .mona-contact-form .contact-heading p {
           font-size: 14px; } }
