@@ -25,7 +25,7 @@
     // ***********************************
     if ($.fn.scrollUp) {
         mona_window.scrollUp({
-            scrollSpeed: 10000,
+            scrollSpeed: 100,
             scrollText: '<i class="fa fa-angle-up"</i>'
         });
     }
