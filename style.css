@@ -82,11 +82,11 @@ a,
 a:active,
 a:focus,
 a:hover {
-  color: #232323;
+  color: #ed489d;
   text-decoration: none;
-  -webkit-transition-duration: 500ms;
-  -o-transition-duration: 500ms;
-  transition-duration: 500ms;
+  -webkit-transition-duration: 5ms;
+  -o-transition-duration: 5ms;
+  transition-duration: 5ms;
   outline: none; }
 
 li {
@@ -439,20 +439,22 @@ ul {
 .header-area {
   position: fixed;
   z-index: 600;
-  width: 100%;
-  left: 0;
+  width: 97%;
+  right: 20px;
+  left: 20px;
   top: 0;
-  -webkit-transition-duration: 500ms;
-  -o-transition-duration: 500ms;
-  transition-duration: 500ms; }
+  -webkit-transition-duration: 5ms;
+  -o-transition-duration: 5ms;
+  transition-duration: 5ms; }
   .header-area .main-header-area.sticky {
     top: 0;
-    width: 100%;
+    width: 97%;
     position: fixed;
     background-color: #ffffff;
     box-shadow: 0 3px 50px rgba(0, 0, 0, 0.2);
     border-bottom: none;
-    left: 0;
+    right: 20px;
+	left: 20px;
     z-index: 650;
     border-bottom-color: transparent; }
   .header-area .search-icon {
@@ -2044,16 +2046,12 @@ ul {
     border-radius: 20px;
     text-align: center;
     line-height: 40px; }
-    .single-footer-widget .footer-social-info a.facebook {
-      background-color: #4c60ac; }
-    .single-footer-widget .footer-social-info a.twitter {
-      background-color: #00bae3; }
-    .single-footer-widget .footer-social-info a.pinterest {
-      background-color: #d91a18; }
+    .single-footer-widget .footer-social-info a.linkedin {
+      background-color: #0e76a8; }
     .single-footer-widget .footer-social-info a.instagram {
-      background-color: #0085d7; }
-    .single-footer-widget .footer-social-info a.youtube {
-      background-color: #e20000; }
+      background-color: #8a3ab9; }
+    .single-footer-widget .footer-social-info a.google {
+      background-color: #4285F4; }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
       .single-footer-widget .footer-social-info a {
         width: 30px;
