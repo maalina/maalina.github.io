@@ -52,6 +52,7 @@ Last Update: Dec 21, 2018
 @import url(css/bootstrap.min.css);
 @import url(css/font-awesome.min.css);
 @import url(css/style.css);
+
 /* :: 1.0 Reboot CSS */
 * {
   margin: 0;
@@ -258,10 +259,10 @@ ul {
   color: #ffffff;
   text-align: center;
   height: 40px;
-  -webkit-transition-duration: 500ms;
-  -webkit-transition-duration: 500ms;
-  -o-transition-duration: 500ms;
-  transition-duration: 500ms;
+  -webkit-transition-duration: 5ms;
+  -webkit-transition-duration: 5ms;
+  -o-transition-duration: 5ms;
+  transition-duration: 5ms;
   border-radius: 2px 0 0 2px; }
   #scrollUp:focus, #scrollUp:hover {
     background-color: #000000; }
@@ -270,19 +271,15 @@ ul {
 .header-area {
   position: fixed;
   z-index: 600;
-  width: 97%;
-  right: 20px;
-  left: 20px;
+  width: 100%;
   top: 0; }
   .header-area .main-header-area.sticky {
     top: 0;
-    width: 97%;
+    width: 100%;
     position: fixed;
     background-color: #ffffff;
     box-shadow: 0 3px 50px rgba(0, 0, 0, 0.2);
     border-bottom: none;
-    right: 20px;
-	left: 20px;
     z-index: 650;
     border-bottom-color: transparent; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {

@@ -10,7 +10,7 @@
   color: $white;
   text-align: center;
   height: 40px;
-  @include transition-duration(500ms);
+  @include transition-duration(5ms);
   border-radius: 2px 0 0 2px;
 
   &:focus,
