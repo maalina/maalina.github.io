@@ -481,16 +481,6 @@ ul {
     -webkit-transition-duration: 80ms;
     -o-transition-duration: 80ms;
     transition-duration: 80ms; }
-  .about-us-thumbnail:focus .line, .about-us-thumbnail:hover .line {
-    opacity: 1;
-    visibility: visible;
-    top: 0;
-    right: 0; }
-  .about-us-thumbnail:focus .line2, .about-us-thumbnail:hover .line2 {
-    opacity: 1;
-    visibility: visible;
-    bottom: 0;
-    left: 0; }
 
 .about-us-content {
   position: relative;
@@ -569,46 +559,6 @@ ul {
       margin-bottom: 0;
 	  margin-top: 0;
 	  line-height: 1.4; }
-	  
-.service-area {
-  position: relative;
-  z-index: 1;
-  border-top: 1px solid #ebebeb;
-  text-align: center;
-  padding-top: 50px; }
-  .service-area i {
-    font-size: 42px;
-    margin-bottom: 30px;
-    color: #A5A5A5;
-    display: block; }
-  .service-area h5 {
-    -webkit-transition-duration: 500ms;
-    -o-transition-duration: 500ms;
-    transition-duration: 500ms;
-    font-size: 22px;
-    margin-bottom: 10px; }
-  .service-area p {
-    font-size: 16px;
-    margin-bottom: 0; }
-  .service-area:focus h5, .service-area:hover h5 {
-    color: #A5A5A5; }
-
-.single-benefits-area {
-  position: relative;
-  z-index: 1; }
-  .single-benefits-area .benefits-icon {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 70px;
-    flex: 0 0 70px;
-    max-width: 70px;
-    width: 70px; }
-    .single-benefits-area .benefits-icon i {
-      color: #A5A5A5;
-      font-size: 42px; }
-  .single-benefits-area .benefits-content h5 {
-    font-size: 22px; }
-  .single-benefits-area .benefits-content p {
-    margin-bottom: 0; }
 
 /* :: 18.0 Footer CSS */
 .footer-area {
